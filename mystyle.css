@@ -32,7 +32,13 @@ h1,h2,h3
 }
 
 *{
-    text-align: center;
     background-color: rgb(197, 159, 159);
 }
+/*class selector*/
 
+.center
+{
+ 
+    text-align: center;
+
+}
