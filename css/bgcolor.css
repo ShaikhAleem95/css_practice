@@ -1,0 +1,12 @@
+*.{
+    
+}
+
+body {
+    background-color: rgb(red, green, blue,0.2);
+    background-image: url(../images/com.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-attachment: fixed;
+    opacity: 100%;
+  }
