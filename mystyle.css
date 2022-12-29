@@ -1,6 +1,53 @@
+
+/* ELEMENT selector */
+
+p{
+    background-color: black;
+}
 div
 {
     background-color:rosybrown;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
+}
+/*grouping selector*/
+h1,h2,h3
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: aquamarine;
+    background-color: rgb(155, 147, 38);
+
+}
+/*ID SELECTOR   # is defined to id selector*/
+#para
+{
+    color: aquamarine;
+    background-color: brown;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+     text-align: center;
+    font-style: italic;
+}
+
+/*class selector denfined by .  */
+
+.para1
+{
+    color: azure;
+    background-color:rgb(105, 62, 5) ;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*class selector*/
+
+.center
+{
+ 
+    text-align: center;
+
+}
+
+/*universal selector*/
+
+*{
+    background-color: rgba(255, 99, 71, 0.5);
 }
