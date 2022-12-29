@@ -1,10 +1,16 @@
+
+/* ELEMENT selector */
+
+p{
+    background-color: black;
+}
 div
 {
     background-color:rosybrown;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
 }
-
+/*grouping selector*/
 h1,h2,h3
 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -12,7 +18,7 @@ h1,h2,h3
     background-color: rgb(155, 147, 38);
 
 }
-/*# is defined to id selector*/
+/*ID SELECTOR   # is defined to id selector*/
 #para
 {
     color: aquamarine;
@@ -31,9 +37,6 @@ h1,h2,h3
     font-family: 'Times New Roman', Times, serif;
 }
 
-*{
-    background-color: rgb(197, 159, 159);
-}
 /*class selector*/
 
 .center
@@ -41,4 +44,10 @@ h1,h2,h3
  
     text-align: center;
 
+}
+
+/*universal selector*/
+
+*{
+    background-color: rgba(255, 99, 71, 0.5);
 }
